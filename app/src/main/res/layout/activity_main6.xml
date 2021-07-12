@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".MainActivity6">
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:lottie_fileName="nonotification.json"
+        app:lottie_loop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:lottie_autoPlay="true" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Notifications"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:textColor="#02AA58"
+
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_gravity="center"
+                >
+
+            </TextView>
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="150dp"
+                android:layout_gravity="center"
+                android:layout_height="140dp"
+                app:lottie_fileName="mynot.json"
+                app:lottie_loop="true"
+                android:id="@+id/notifgr"
+
+                app:lottie_autoPlay="true" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="10dp"
+                android:id="@+id/crdimg"
+                android:layout_height="250dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="center"
+                    android:id="@+id/notifimage">
+                </ImageView>
+            </androidx.cardview.widget.CardView>
+       <androidx.cardview.widget.CardView
+           android:layout_width="wrap_content"
+           android:layout_gravity="center"
+           app:cardCornerRadius="20dp"
+           android:layout_margin="20dp"
+           android:layout_marginTop="10dp"
+           android:elevation="20dp"
+           android:layout_height="wrap_content">
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:text="sender messages"
+               android:textSize="14sp"
+               android:textColor="#000"
+               android:layout_gravity="center"
+               android:padding="15dp"
+               android:gravity="center"
+               android:background="@drawable/mesgback"
+               android:linksClickable="true"
+               android:autoLink="web"
+               android:textColorLink="#D52979FF"
+               android:id="@+id/dtxt">
+           </TextView>
+       </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="90dp"
+                android:layout_height="50dp">
+
+                <com.google.android.gms.ads.AdView
+                    android:id="@+id/adView1p"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="bottom"
+                    app:adSize="BANNER"
+                    app:adUnitId="ca-app-pub-3940256099942544/6300978111"
+                    tools:ignore="MissingConstraints" />
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_height="50dp">
+
+                <com.google.android.gms.ads.AdView
+                    android:id="@+id/adView11p"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="bottom"
+                    app:adSize="BANNER"
+                    app:adUnitId="ca-app-pub-3940256099942544/6300978111"
+                    tools:ignore="MissingConstraints" />
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_height="50dp">
+
+                <com.google.android.gms.ads.AdView
+                    android:id="@+id/adView12p"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="bottom"
+                    app:adSize="BANNER"
+                    app:adUnitId="ca-app-pub-3940256099942544/6300978111"
+                    tools:ignore="MissingConstraints" />
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

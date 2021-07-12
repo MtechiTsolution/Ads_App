@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:padding="30dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/ver">
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#02AA58"
+          android:layout_gravity="center"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:text="VERIFICATION ">
+
+        </TextView>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/notifi"
+            >
+
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#8A061F"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="We want verification so that you can avoid any kind of fraud and get your money back to you safely.">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="10dp"
+            android:text="Please Enter phone number with country code">
+
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:maxLength="15"
+            android:hint="XXXXXXXXXXXXX"
+            android:inputType="phone"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/phn"
+            >
+        </EditText>
+
+
+        <EditText
+            android:id="@+id/phnvari"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Enter Varification code"
+            android:inputType="phone"
+            android:padding="10dp"
+            android:visibility="invisible"></EditText>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send varification code"
+                 android:background="@drawable/nextback"
+            android:layout_margin="20dp"
+            android:id="@+id/btsvar">
+        </Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Verify"
+
+            android:background="@drawable/backbuton"
+            android:layout_margin="20dp"
+            android:visibility="invisible"
+            android:id="@+id/bvar">
+        </Button>
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:adSize="BANNER"
+            android:layout_gravity="bottom"
+            app:adUnitId="ca-app-pub-1882443780838389/1245909193"
+            tools:ignore="MissingConstraints" />
+
+    </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

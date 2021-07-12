@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="mtech.pak.tajrabaadds.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_HomeFragment_to_HomeSecondFragment"
+            app:destination="@id/nav_home_second" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_home_second"
+        android:name="mtech.pak.tajrabaadds.ui.home.HomeSecondFragment"
+        android:label="@string/home_second"
+        tools:layout="@layout/fragment_home_second">
+        <action
+            android:id="@+id/action_HomeSecondFragment_to_HomeFragment"
+            app:destination="@id/nav_home" />
+
+        <argument
+            android:name="myArg"
+            app:argType="string" />
+    </fragment>
+
+
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="mtech.pak.tajrabaadds.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment android:id="@+id/share"
+        android:name="mtech.pak.tajrabaadds.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/share_fragment"/>
+    <fragment android:id="@+id/About"
+        android:name="mtech.pak.tajrabaadds.ui.aboutfragment2.AboutFragment2"
+        android:label="@string/menu_about"
+        tools:layout="@layout/about_fragment2_fragment"
+        />
+    <fragment android:id="@+id/Rate"
+        android:name="mtech.pak.tajrabaadds.ui.ratefragment2.RateFragment2"
+        android:label="@string/menu_Rate"
+        tools:layout="@layout/rate_fragment2_fragment"/>
+    <fragment android:id="@+id/Disclaimer"
+        android:label="@string/menu_disclaimer"
+        android:name="mtech.pak.tajrabaadds.ui.disclaimerfragement.DisclaimerFragementFragment"
+        tools:layout="@layout/disclaimer_fragement_fragment"/>
+    <fragment android:id="@+id/Exit"
+        android:name="mtech.pak.tajrabaadds.ui.exitfragement.ExitFragementFragment"
+        tools:layout="@layout/exit_fragement_fragment"
+        android:label="@string/menu_Exit"/>
+    <fragment android:id="@+id/file"
+        android:name="mtech.pak.tajrabaadds.ui.send.SendFragment"
+        tools:layout="@layout/send_fragment"
+        android:label="@string/menu_attach"/>
+</navigation>

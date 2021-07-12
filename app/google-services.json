@@ -1,0 +1,65 @@
+{
+  "project_info": {
+    "project_number": "838021996",
+    "firebase_url": "https://tajrabaadds.firebaseio.com",
+    "project_id": "tajrabaadds",
+    "storage_bucket": "tajrabaadds.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:838021996:android:78e54b96671fd4e5253949",
+        "android_client_info": {
+          "package_name": "mtech.pak.tajrabaadds"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "838021996-8peehvrp6fdnrqdqi2efil9umscknu07.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mtech.pak.tajrabaadds",
+            "certificate_hash": "96d95444f62679dd2a61d82394e7a7d4f270b59f"
+          }
+        },
+        {
+          "client_id": "838021996-oe85bnv8ersmj40f4s28mah51lcm36pf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mtech.pak.tajrabaadds",
+            "certificate_hash": "6c36c74ace236532884ab9f8b70882531cce55bc"
+          }
+        },
+        {
+          "client_id": "838021996-3o629d7u7h9vkrkejk6j9mfm2eg0go7m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mtech.pak.tajrabaadds",
+            "certificate_hash": "ff11b38c3c8d70e9988f14b0a660ade0c40d0ee9"
+          }
+        },
+        {
+          "client_id": "838021996-ccrur0b2q5gho94fcav28dcg7vpqmhsm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtL9qhDZTiaKkFKN4305nyzXbnmSPmqRk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "838021996-ccrur0b2q5gho94fcav28dcg7vpqmhsm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-1882443780838389~8384059428"
+    }
+  ],
+  "configuration_version": "1"
+}

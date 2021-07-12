@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+android:background="#fff"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animation_viewr"
+            android:layout_width="100dp"
+            android:layout_height="90dp"
+            app:lottie_fileName="cong.json"
+            app:lottie_loop="true"
+            android:layout_gravity="center"
+            app:lottie_autoPlay="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#C60303"
+            android:textSize="25dp"
+            android:fontFamily="serif"
+            android:text="Congratulation"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:gravity="center"
+            tools:ignore="MissingConstraints">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:padding="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:text="Congratulation you have successfully completed the withdraw process.Your money has been transferred to your account.
+\n\n Thank you ‼️">
+
+        </TextView>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@drawable/nextback"
+            android:layout_gravity="right"
+            android:shadowDx="-2"
+            android:shadowDy="-2"
+            android:textStyle="bold"
+            android:shadowRadius="1"
+            android:shadowColor="#000"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:text="RateUs"
+            android:textAllCaps="false"
+            android:id="@+id/congpl"
+
+            >
+
+        </Button>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            >
+
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>

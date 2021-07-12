@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".MainActivity8">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Invitation"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textColor="#00E676"
+        >
+    </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/grp">
+            </ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#8A061F"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Invite Friends and withdraw money.Five Friends must be invited"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        android:privateImeOptions="10dp"
+        >
+    </TextView>
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_viewr"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        app:lottie_fileName="invite.json"
+        app:lottie_loop="true"
+        android:layout_gravity="center"
+        app:lottie_autoPlay="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Invited Users"
+        android:layout_marginTop="10dp"
+        android:fontFamily="cursive"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#FF1744"
+        >
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/countshereuser"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000"
+        android:layout_gravity="right">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:text="Enter Mobile Number with country code"
+        android:textColor="#000"
+        >
+    </TextView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:elevation="20dp"
+            android:background="@drawable/nextback"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            app:cardCornerRadius="10dp"
+            android:layout_height="50dp">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="XXXXXXXXXXXXX"
+                android:textColorHint="#2C000000"
+                android:paddingLeft="15dp"
+                android:maxLength="13"
+                android:inputType="phone"
+                android:paddingRight="5dp"
+                android:drawableRight="@drawable/call"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                 android:background="@null"
+                android:id="@+id/shrnmber">
+            </EditText>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:elevation="30dp"
+            app:cardCornerRadius="23dp"
+            app:cardBackgroundColor="#FF1744"
+            android:layout_marginRight="50dp"
+            android:layout_height="45dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:layout_gravity="center"
+                android:id="@+id/chosecnt"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:text="Choose from contact list"
+                >
+            </TextView>
+        </androidx.cardview.widget.CardView>
+
+<androidx.cardview.widget.CardView
+    android:layout_width="wrap_content"
+    android:layout_gravity="center"
+    app:cardCornerRadius="20dp"
+    android:elevation="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_height="40dp">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/shrebtn"
+        android:background="#fff"
+        android:text="Invite"
+        android:gravity="center"
+        android:layout_gravity="center"
+        >
+    </Button>
+
+</androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+      android:layout_gravity="bottom"
+        android:layout_marginTop="20dp"
+        android:layout_height="70dp">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView1p"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-3940256099942544/6300978111"
+            tools:ignore="MissingConstraints" />
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
