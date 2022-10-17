@@ -1,64 +1,76 @@
 {
   "project_info": {
-    "project_number": "838021996",
-    "firebase_url": "https://tajrabaadds.firebaseio.com",
-    "project_id": "tajrabaadds",
-    "storage_bucket": "tajrabaadds.appspot.com"
+    "project_number": "268318468177",
+    "firebase_url": "https://manuebatr-46df9.firebaseio.com",
+    "project_id": "manuebatr-46df9",
+    "storage_bucket": "manuebatr-46df9.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:838021996:android:78e54b96671fd4e5253949",
+        "mobilesdk_app_id": "1:268318468177:android:22b0b1635782588406b070",
         "android_client_info": {
-          "package_name": "mtech.pak.tajrabaadds"
+          "package_name": "com.mujahid.manue_batr"
         }
       },
       "oauth_client": [
         {
-          "client_id": "838021996-8peehvrp6fdnrqdqi2efil9umscknu07.apps.googleusercontent.com",
+          "client_id": "268318468177-mul0g4brsvbna2jur4d1s4stgq8ga14s.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "mtech.pak.tajrabaadds",
-            "certificate_hash": "96d95444f62679dd2a61d82394e7a7d4f270b59f"
-          }
-        },
-        {
-          "client_id": "838021996-oe85bnv8ersmj40f4s28mah51lcm36pf.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "mtech.pak.tajrabaadds",
-            "certificate_hash": "6c36c74ace236532884ab9f8b70882531cce55bc"
-          }
-        },
-        {
-          "client_id": "838021996-3o629d7u7h9vkrkejk6j9mfm2eg0go7m.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "mtech.pak.tajrabaadds",
+            "package_name": "com.mujahid.manue_batr",
             "certificate_hash": "ff11b38c3c8d70e9988f14b0a660ade0c40d0ee9"
           }
         },
         {
-          "client_id": "838021996-ccrur0b2q5gho94fcav28dcg7vpqmhsm.apps.googleusercontent.com",
+          "client_id": "268318468177-rdodec8n11ap7c9me3gnjlru5tp9rr2m.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCtL9qhDZTiaKkFKN4305nyzXbnmSPmqRk"
+          "current_key": "AIzaSyD7Bomq8PNSz6ChDlZAJzAeGFEi26ZsrdU"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "838021996-ccrur0b2q5gho94fcav28dcg7vpqmhsm.apps.googleusercontent.com",
+              "client_id": "268318468177-rdodec8n11ap7c9me3gnjlru5tp9rr2m.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
         }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268318468177:android:f9f9ca3167af46a606b070",
+        "android_client_info": {
+          "package_name": "mtech.pak.tajrabaadds"
+        }
       },
-      "admob_app_id": "ca-app-pub-1882443780838389~8384059428"
+      "oauth_client": [
+        {
+          "client_id": "268318468177-rdodec8n11ap7c9me3gnjlru5tp9rr2m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7Bomq8PNSz6ChDlZAJzAeGFEi26ZsrdU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "268318468177-rdodec8n11ap7c9me3gnjlru5tp9rr2m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
     }
   ],
   "configuration_version": "1"

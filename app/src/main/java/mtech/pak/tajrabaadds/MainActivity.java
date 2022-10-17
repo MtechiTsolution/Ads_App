@@ -1,6 +1,8 @@
 package mtech.pak.tajrabaadds;
 
 
+import static android.content.Intent.ACTION_SEND;
+
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -10,6 +12,7 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
@@ -37,8 +40,6 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-
-import static android.content.Intent.ACTION_SEND;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -217,6 +218,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else  if(item.getItemId()==R.id.Exit)
                 {
+                    Log.d("log","iuiuiui");
                     AlertDialog.Builder builder1 = new AlertDialog.Builder(MainActivity.this);
                     builder1.setTitle( "LogOut" );
                     builder1.setMessage("Are you sure want to logout");
